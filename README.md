@@ -14,7 +14,7 @@ For example, if our cache of...
 
 is at capacity, adding the value *6* would give this result...
 
->6, 2, 3, 4, 5
+>6, 1, 2, 3, 4
 
 Because of this, an LRU cache requires not only that we keep track of the data in the cache, but also the **order** of that data.
 
